@@ -1,0 +1,22 @@
+.no-available{
+    background: #FFF;
+}
+.free {
+    background: green;
+}
+.ocupated {
+    background: grey;
+}
+
+span.no-available{
+    border: 1px solid #000;
+}
+
+.calendar {
+    padding: 30px;
+    margin-left: 90px;
+}
+
+.calendar div{
+    min-height: 30px;
+}

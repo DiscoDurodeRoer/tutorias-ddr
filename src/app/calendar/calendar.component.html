@@ -1,0 +1,88 @@
+<div class="row border rounded pt-3 pb-3 bg-white" *ngIf="show">
+  <div class="col-12 text-center">
+
+    <div class="row">
+      <div class="col-12">
+        <h1>Calendario tutorias Disco Duro de Roer</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 ">
+        <span class="badge badge-pill border free text-light mr-2">Libre</span>
+        <span class="badge badge-pill ocupated text-light mr-2">Ocupado</span>
+        <span class="badge badge-pill no-available text-dark mr-2">No disponible</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 calendar">
+
+        <div class="row">
+          <div class="col-2">
+
+          </div>
+
+          <div class="col-1">
+            Lunes
+          </div>
+
+          <div class="col-1">
+            Martes
+          </div>
+
+          <div class="col-1">
+            Miércoles
+          </div>
+
+          <div class="col-1">
+            Jueves
+          </div>
+
+          <div class="col-1">
+            Viernes
+          </div>
+
+          <div class="col-1">
+            Sábado
+          </div>
+
+          <div class="col-1">
+            Domingo
+          </div>
+
+        </div>
+
+
+        <div class="row" *ngFor="let info of data">
+
+          <div class="col-2 border">
+            {{info.hour}}
+          </div>
+          <div class="col-1 border" [ngClass]="{'no-available': av == 'N', 'free': av == 'L', 'ocupated': av == 'O'}"
+            *ngFor="let av of info.availability">
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <p>Toda la información sobre las tutorias, <a target="_blank"
+            href="https://www.discoduroderoer.es/tutorias-programacion/">aquí</a>.</p>
+        <p>Si quieres solicitar una clase, enviame un correo a administrador@discoduroderoer.es con la/s hora/s que
+          desees.</p>
+        <p>También puedes contactarme por skype, puedes hacerlo directamente <a
+            href="skype:discoduroderoer?chat">aquí</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div *ngIf="!show">
+  <p>No estoy disponible para realizar clases partilares</p>
+</div>

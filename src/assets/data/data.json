@@ -1,0 +1,113 @@
+{
+    "available": true,
+    "availability": [
+        {
+            "hour": "09:00 am",
+            "availability": ["N","N","N","N","N","L","N"]
+        },
+        {
+            "hour": "09:30 am",
+            "availability": ["N","N","N","N","N","L","N"]
+        },
+        {
+            "hour": "10:00 am",
+            "availability": ["N","N","N","N","N","L","N"]
+        },
+        {
+            "hour": "10:30 am",
+            "availability": ["N","N","N","N","N","L","N"]
+        },
+        {
+            "hour": "11:00 am",
+            "availability": ["N","N","N","N","N","L","L"]
+        },
+        {
+            "hour": "11:30 am",
+            "availability": ["N","N","N","N","N","L","L"]
+        },
+        {
+            "hour": "12:00 am",
+            "availability": ["N","N","N","N","N","L","L"]
+        },
+        {
+            "hour": "12:30 am",
+            "availability": ["N","N","N","N","N","L","L"]
+        },
+        {
+            "hour": "13:00 pm",
+            "availability": ["N","N","N","N","N","L","L"]
+        },
+        {
+            "hour": "13:30 pm",
+            "availability": ["N","N","N","N","N","L","L"]
+        },
+        {
+            "hour": "14:00 pm",
+            "availability": ["N","N","N","N","N","N","N"]
+        },
+        {
+            "hour": "14:30 pm",
+            "availability": ["N","N","N","N","N","N","N"]
+        },
+        {
+            "hour": "15:00 pm",
+            "availability": ["N","N","N","N","N","N","N"]
+        },
+        {
+            "hour": "15:30 pm",
+            "availability": ["N","N","N","N","N","N","N"]
+        },
+        {
+            "hour": "16:00 pm",
+            "availability": ["N","N","N","N","L","N","N"]
+        },
+        {
+            "hour": "16:30 pm",
+            "availability": ["N","N","N","N","L","N","N"]
+        },
+        {
+            "hour": "17:00 pm",
+            "availability": ["N","N","N","N","O","O","O"]
+        },
+        {
+            "hour": "17:30 pm",
+            "availability": ["N","N","N","N","O","O","O"]
+        },
+        {
+            "hour": "18:00 pm",
+            "availability": ["O","O","O","O","O","O","O"]
+        },
+        {
+            "hour": "18:30 pm",
+            "availability": ["O","O","O","O","O","O","O"]
+        },
+        {
+            "hour": "19:00 pm",
+            "availability": ["O","O","O","O","L","O","L"]
+        },
+        {
+            "hour": "19:30 pm",
+            "availability": ["O","O","O","O","L","O","L"]
+        },
+        {
+            "hour": "20:00 pm",
+            "availability": ["O","N","O","N","L","O","L"]
+        },
+        {
+            "hour": "20:30 pm",
+            "availability": ["O","N","O","N","L","O","L"]
+        },
+        {
+            "hour": "21:00 pm",
+            "availability": ["N","N","N","N","N","N","N"]
+        },
+        {
+            "hour": "21:30 pm",
+            "availability": ["N","N","N","N","N","N","N"]
+        },
+        {
+            "hour": "22:00 pm",
+            "availability": ["N","N","N","N","N","N","N"]
+        }
+    ]
+}
